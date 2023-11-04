@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-04T14:59:26.633Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="tWp0u4d_FwkTUbryzMER" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-04T15:01:11.594Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="XZjA_sUmUuDHnRwWt2AP" version="22.0.8" type="github">
   <diagram name="Page-1" id="12e1b939-464a-85fe-373e-61e167be1490">
     <mxGraphModel dx="1728" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="pM2UL4EzBKWQbs61ZJ5b-1" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=8;fontSize=20;align=center;fillColor=#FED217;strokeColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="87" y="80" width="280" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-2" value="КОНТЕКСТ ВЫПОЛНЕНИЯ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=27;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-2" value="ФОРМИРОВАНИЕ КОНТЕКСТА" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=27;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="100" y="100" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pM2UL4EzBKWQbs61ZJ5b-3" value="Формировании контекста обработки данных. Он содержит информацию о формате исходных данных, поступивших в обработку (CSV, JSON, XML, YAML), поток (stream) этих данных, ссылку на DI и т.п." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" vertex="1" parent="1">
@@ -49,10 +49,10 @@
         <mxCell id="pM2UL4EzBKWQbs61ZJ5b-16" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=8;fontSize=20;align=center;fillColor=#FFB001;strokeColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="647" y="80" width="280" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-17" value="КОНВЕЙЕР ПРЕОБРАЗОВАНИЯ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=27;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-17" value="КОНВЕЙЕР ПРЕОБРАЗОВАНИЙ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=27;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="647" y="105" width="280" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-18" value="Конвейер преобразования (доработки) исходных данных. На этом этапе можно редактировать исходные данные до того, как они будут переданы в обработку." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-18" value="Конвейер преобразований (доработки) исходных данных. На этом этапе можно редактировать исходные данные до того, как они будут переданы в обработку." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="660" y="370" width="250" height="120" as="geometry" />
         </mxCell>
         <mxCell id="pM2UL4EzBKWQbs61ZJ5b-19" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="1">
@@ -70,10 +70,10 @@
         <mxCell id="pM2UL4EzBKWQbs61ZJ5b-23" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=8;fontSize=20;align=center;fillColor=#FE9900;strokeColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="927" y="80" width="280" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-24" value="КОНВЕЙЕР ВЕРИФИКАЦИИ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=27;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-24" value="КОНВЕЙЕР ВЕРИФИКАЦИЙ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=27;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="927" y="100" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-25" value="Конвейер верификации данных, подлежащих обработке." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-25" value="Конвейер верификаций данных, подлежащих обработке." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="940" y="370" width="250" height="120" as="geometry" />
         </mxCell>
         <mxCell id="pM2UL4EzBKWQbs61ZJ5b-26" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="1">
