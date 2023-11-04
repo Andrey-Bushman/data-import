@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-04T15:01:11.594Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="XZjA_sUmUuDHnRwWt2AP" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-04T15:23:55.846Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ngd766z21xCxecgGNlyS" version="22.0.8" type="github">
   <diagram name="Page-1" id="12e1b939-464a-85fe-373e-61e167be1490">
     <mxGraphModel dx="1728" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -108,6 +108,48 @@
         </mxCell>
         <mxCell id="pM2UL4EzBKWQbs61ZJ5b-36" value="ИСКЛЮЧЕНИЕ ДУБЛЕЙ" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeWidth=6;fontSize=14;align=center;fillColor=#BF639A;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1150" y="220" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-37" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=8;fontSize=20;align=center;fillColor=#FE9900;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1487" y="80" width="280" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-38" value="КОНВЕЙЕР ИМПОРТА" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=27;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1487" y="100" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-39" value="Каждому &lt;i&gt;middleware&lt;/i&gt;, зарегистрированному на конвейере, последовательно передаётся &lt;i&gt;сразу весь набор&lt;/i&gt; исходных данных. Каждый &lt;i&gt;middleware &lt;/i&gt;решает какую-то одну задачу. Т.о. на основе одной исходной записи, можно выполнять в CRM произвольное количество изменений." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="360" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-40" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1507" y="160" width="240" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-41" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1507" y="340" width="240" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-42" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.stylisedArrow;dy=0.6;dx=40;notch=15;feather=0.4;rounded=0;strokeWidth=1;fontSize=27;strokeColor=none;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="1577" y="248" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-43" value="КОНВЕЙЕР ИМПОРТА" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeWidth=6;fontSize=14;align=center;fillColor=#FF6666;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="220" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-44" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=8;fontSize=20;align=center;fillColor=#FE9900;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1767" y="80" width="280" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-45" value="КОНВЕЙЕР ОБРАБОТКИ РЕЗУЛЬТАТОВ ИМПОРТА" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=27;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1767" y="100" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-46" value="Обработка результатов импорта данных в CRM." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="360" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-47" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1787" y="210" width="240" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-48" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1787" y="340" width="240" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-49" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.stylisedArrow;dy=0.6;dx=40;notch=15;feather=0.4;rounded=0;strokeWidth=1;fontSize=27;strokeColor=none;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="1857" y="248" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-50" value="ОБРАБОТКА РЕЗУЛЬТАТОВ ИМПОРТА" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeWidth=6;fontSize=14;align=center;fillColor=#990000;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="220" width="115" height="115" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
