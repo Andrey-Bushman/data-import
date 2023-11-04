@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-04T14:24:42.877Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="AN0H7yTVwiJYmg2lOchi" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-04T14:27:09.857Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="aEf-XYrskY29L3mgOtU5" version="22.0.8" type="github">
   <diagram name="Page-1" id="12e1b939-464a-85fe-373e-61e167be1490">
     <mxGraphModel dx="1728" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -94,10 +94,10 @@
         <mxCell id="pM2UL4EzBKWQbs61ZJ5b-1" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=8;fontSize=20;align=center;fillColor=#FED217;strokeColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="77" y="520" width="280" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-2" value="КОНТЕКСТ ОБРАБОТКИ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=27;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-2" value="ФОРМИРОВАНИЕ КОНТЕКСТА" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=27;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="90" y="540" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-3" value="Формируем контекст обработки данных. Он содержит информацию о формате исходных данных, поступивших в обработку (CSV, JSON, XML, YAML), а так же поток (stream) этих данных." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-3" value="Формируем контекст обработки данных. Он содержит информацию о формате исходных данных, поступивших в обработку (CSV, JSON, XML, YAML), поток (stream) этих данных, ссылку на DI и т.п." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="90" y="810" width="250" height="120" as="geometry" />
         </mxCell>
         <mxCell id="pM2UL4EzBKWQbs61ZJ5b-4" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="1">
@@ -111,6 +111,27 @@
         </mxCell>
         <mxCell id="pM2UL4EzBKWQbs61ZJ5b-7" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.stylisedArrow;dy=0.6;dx=40;notch=15;feather=0.4;rounded=0;strokeWidth=1;fontSize=27;strokeColor=none;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="167" y="688" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-9" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=8;fontSize=20;align=center;fillColor=#FFC001;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="367" y="520" width="280" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-10" value="CONVERT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=27;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="367" y="540" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-11" value="Forms&lt;div&gt;Calls-to-Action&lt;/div&gt;&lt;div&gt;Landing Pages&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="367" y="840" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-12" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="387" y="600" width="240" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-13" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="387" y="820" width="240" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-14" value="VISITORS" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeWidth=6;fontSize=14;align=center;fillColor=#397DAA;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="310" y="660" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="pM2UL4EzBKWQbs61ZJ5b-15" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.stylisedArrow;dy=0.6;dx=40;notch=15;feather=0.4;rounded=0;strokeWidth=1;fontSize=27;strokeColor=none;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="457" y="688" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
